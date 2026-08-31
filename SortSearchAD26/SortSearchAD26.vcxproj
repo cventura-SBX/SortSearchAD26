@@ -139,7 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Search.cpp" />
     <ClCompile Include="SortSearchAD26.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Search.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
